@@ -58,6 +58,9 @@ footer{
     background: var(--clr_accent);
     color: var(--clr_text);
 }
+nav{
+    margin-bottom: 0.5rem;
+}
 a{
     text-decoration: none;
     color: var(--clr_button);
@@ -114,7 +117,7 @@ p{
     margin-left: 5dvw;
     margin-right: 5dvw;
 }
-#pre_set{
+.pre_set{
     height: 100%;
     width: 35dvw;
 }
@@ -122,6 +125,9 @@ p{
     width: 100%;
     height: 10rem;
 }
-#thelash{
+.thelash{
     padding-left: var(--pdg_cap)
+}
+#goat{
+    margin-right: 2rem;
 }
