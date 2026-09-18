@@ -3,6 +3,7 @@
     --clr_accent: #5C3A21;
     --clr_button: #C79B45;
     --clr_text: #E8DFC8;
+    --clr_eldritch: #2E5F5A;
     --pdg_bread: 4rem;
     --pdg_cap: 2rem;
 }
@@ -120,14 +121,27 @@ p{
 .pre_set{
     height: 100%;
     width: 35dvw;
+    border-radius: 5px;
+    outline: 5px solid var(--clr_eldritch);
 }
 #place_section img{
     width: 100%;
     height: 10rem;
 }
 .thelash{
-    padding-left: var(--pdg_cap)
+    margin-left: 3dvw;
+    margin-right: 2dvw;
+    padding-bottom: 5dvh;
 }
 #goat{
-    margin-right: 2rem;
+    padding-right: var(--pdg_cap);
+    padding-top: var(--pdg_cap);
+}
+#about_logo{
+    display: grid;
+    place-content: center;
+}
+#loggan_i_about{
+    padding: 2rem;
+    height: 70dvh;
 }
